@@ -10,7 +10,7 @@ devtools::install_github("dkahle/ggmap")
 ####Obatin google key by activating geocoding API and creating new credential key######
 register_google(key = "Google API key")     ## Looks something like this: WqDiSyAwfuiT5mwNmHXUN9Idd1V56MB1C4LZlFAE
 
-###READ DATA: csv file with addresses. sample: 4010 Bryce Ave, Fort Worth, TX 76107 ###
+###READ DATA: csv file with addresses. sample: 2401 S University Dr, Fort Worth, TX 76109 ###
 data <- read.csv("addresses.csv", header=TRUE, stringsAsFactors = FALSE)
 address_list <- unique(data$addresses)
 
