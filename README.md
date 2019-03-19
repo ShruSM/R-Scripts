@@ -1,2 +1,2 @@
 # R-Scripts
-R scripts 
+This repository is for R scripts.
